@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "btn"
+		},
+		{
+			"path": "css"
+		},
+		{
+			"path": "icon"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "logopng"
+		},
+		{
+			"path": "otherimg"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}

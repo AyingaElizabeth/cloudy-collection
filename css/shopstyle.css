@@ -1,0 +1,99 @@
+#page-header{
+    background-image: url(../btn/blackstrap.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+#page-header h2,#page-header p{
+    color: #fff;
+
+}
+
+ #pagination{
+    text-align: center;
+
+ }
+ #pagination a {
+    text-decoration: none;
+    background-color: var(--text-color2);
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600; 
+ }
+
+ #pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+     
+ }
+
+
+
+ /* single prdt*/
+ #prdt-details{
+    display: flex;
+    margin-top: 20px;
+ }
+
+ #prdt-details .single-prdt-image{
+    width: 40%;
+    margin: 50px ;
+
+ }
+ .sm-img-grp{
+     display: flex;
+     justify-content: space-between;
+ }
+  .sm-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+  }
+  #prdt-details .single-prdt-dtails{
+    width: 50%;
+    padding-top: 30px;
+  }
+  #prdt-details .single-prdt-dtails h4{
+    padding: 40px 0 20px 0;
+  }
+  #prdt-details .single-prdt-dtails h2{
+   font-size: 28px;
+  }
+  #prdt-details .single-prdt-dtails select{
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #prdt-details .single-prdt-dtails input{
+    width: 50px;
+    height: 47px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+
+  }
+  #prdt-details .single-prdt-dtails input:focus{
+  outline: none;
+  }
+
+  #prdt-details .single-prdt-dtails h4{
+    padding: 40px 0 20px 0;
+  }
+
+  #prdt-details .single-prdt-dtails button{
+background: var(--text-color2);
+color: #fff;
+
+  }
+
+  #prdt-details .single-prdt-dtails span{
+    line-height: 25px;
+  }

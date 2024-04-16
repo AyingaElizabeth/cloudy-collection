@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::after,
+        *::before{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --dark-color:#000;
+        
+        }
+        .long-g long-g--5{
+            background-color: aqua;
+        }
+        #long-g long-g--6{
+            background-color: bisque;
+        }
+    
+        body{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: var(--dark-color);
+            overflow: hidden;
+            perspective: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="long-g long-g--5">
+    <div class="grow-ans" style="--d:4s">
+    <div class="leafleaf--0"></div>
+    </div>
+
+    <div class="grow-ans" style="--d:4.2s">
+        <div class="leafleaf--1"></div>
+    </div>
+
+     <div class="grow-ans" style="--d:3s">
+            <div class="leafleaf--2"></div>
+     </div>
+
+     <div class="grow-ans" style="--d:3.6">
+        <div class="leafleaf--3"></div>
+     </div>
+    </div>
+     
+
+    <div class="long-g long-g--6">
+     <div class="long-g long-g--6" style="--d:4.2s">
+        <div class="leafleaf--0"></div>
+    </div>
+
+    <div class="long-g long-g--6" style="--d:4.1s">
+        <div class="leafleaf--1"></div>
+    </div>
+
+    <div class="long-g long-g--6" style="--d:4.6s">
+        <div class="leafleaf--2"></div>
+    </div>
+
+    <div class="long-g long-g--6" style="--d:4.8s">
+        <div class="leafleaf--3"></div>
+    </div>
+
+    </div>
+
+</body>
+<script src="script.js" >
+   
+</script>
+
+</html>

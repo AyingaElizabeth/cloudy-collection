@@ -1,0 +1,32 @@
+#feature{
+    justify-content: space-between;
+}
+#feature .featurebox{
+    width: 155px;
+    margin: 0 0 15px 0;
+}
+#product1 .pro{
+    width: 100%;
+}
+#banner{
+    height: 40vh;
+}
+#small-banners .banner-bx{
+    height: 40vh;
+}
+#small-banners .banner-bx2{
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    #feature .featurebox{
+        width: 100px;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width:255px){
+    #feature .featurebox{
+        width: 150px;
+        margin: 0 0 15px 0;
+    }
+}
